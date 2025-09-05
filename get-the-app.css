@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+.middle-section p{
+    font-family: serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    color: #000000c0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.lis{
+    width: 38%;
+    /* margin-right: 5%; */
+    margin-left: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 40px;
+    z-index: 20;
+    position: absolute;
+}
+
+.middle-section li{
+
+    line-height: 38px;
+    display: list-item;
+    font-size: 25px;
+}
+
+#img-container{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    box-sizing: content-box;
+   
+    /* height: 300px; */
+
+}
+
+#img-container-end{
+    display: none;
+}
+
+#the-img{
+    width: 100%;
+}
+
+#a{
+    width: 150px;
+    height: 65px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+#b{
+    width: 140px;
+    height: 65px;
+    margin-top: 10px;
+    vertical-align: top;
+}
+
+@media (max-width:980px) {
+    .middle-section li{
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .middle-section p{
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width:955px) {
+    .middle-section{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:880px) {
+    .middle-section{
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:840px) {
+    .middle-section{
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:800px) {
+    .middle-section{
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:780px) {
+    .middle-section{
+        margin-bottom: 35px;
+    }
+}
+
+@media (max-width:775px) {
+    .middle-section{
+        margin-bottom: 35px;
+    }
+
+    .icons-down{
+        margin-bottom: 35px;
+    }
+
+    #img-container{
+        width: 100%;
+        /* object-position: center; */
+       
+    }
+
+    #the-img{
+        padding-bottom: 20px;
+    }
+
+    #a{
+        width: 120px;
+    }
+
+    #b{
+        width: 120px;
+    }
+}
+
+@media (max-width:700px) {
+    #img-container{
+        display: grid;
+    }
+
+    .lis{
+        position: relative;
+        display: grid;
+        width: 85%;
+        text-align: center;
+    }
+
+   #img-container{
+    display: none;
+   }
+
+     #a{
+        width: 150px;
+    }
+
+    #b{
+        width: 140px;
+    }
+}
